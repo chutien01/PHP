@@ -33,7 +33,7 @@ mysqli_set_charset($mysqli,"utf8");
     <!-- Bootstrap styles -->
     <link href="assets/css/bootstrap.css" rel="stylesheet"/>
     <!-- Customize styles -->
-    <link href="style.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
     <!-- font awesome styles -->
 	<link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet">
 		<!--[if IE 7]>
@@ -68,7 +68,7 @@ mysqli_set_charset($mysqli,"utf8");
 				<?php
                     if(empty($_SESSION['tk'])){
                 ?>
-					<a href="login.php"><span class="icon-lock"></span> Đăng nhập </a>
+					<a href="login.html"><span class="icon-lock"></span> Đăng nhập </a>
                     <a href="register.php"><span class="icon-edit"></span>Đăng ký</a>
                 <?php
                 }else{
